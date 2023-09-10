@@ -13,12 +13,13 @@ h1 {
   font-size: 22px;
   background-image: url(IMG_1211.JPG);
   background-size: cover;
-  /* background-position: center; */
+  /* background-position: center; */;
 
 }
 
-main {
+main, .information {
   background-image: url(futsal.webp);
+  padding-bottom: 8px;
 }
 
 h2 {
@@ -27,14 +28,57 @@ h2 {
   margin:0;
   padding-top: 8px;
   padding-left:8px;
+  text-align: center;
 }
 
-.days, .place, .message, .wrapupparty{
+.days, .place, .message, .wrapupparty, .rules, .schedules {
   font-weight: bold;
   padding-top:4px;
   padding-left:8px;
+  margin:0;
+}
+
+.message {
+  line-height: 1.6;
 }
 
 a:hover {
   background:skyblue;
+}
+
+h3 {
+  font-size: 16px;
+  color:skyblue;
+  margin: 0;
+  padding-left: 8px;
+  /* background:skyblue; */
+  /* border-bottom: 1px solid skyblue; */
+  text-decoration: underline;
+  text-decoration-color: skyblue;
+}
+
+/* nav {
+  background-image: url(painted-wood-planks-large-background.jpg);
+  height: 160px;
+} */
+
+
+span {
+  color: red;
+}
+
+dl, dt, dd {
+  font-size: 14;
+  font-weight: bold;
+  padding-left: 8px;
+}
+
+.ex {
+  color:deeppink;
+  text-decoration: underline;
+  text-decoration-color: deeppink;
+}
+
+footer {
+  text-align: center;
 }
