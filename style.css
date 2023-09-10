@@ -31,7 +31,7 @@ h2 {
   text-align: center;
 }
 
-.days, .place, .message, .wrapupparty, .rules, .schedules {
+.days, .place, .message, .wrapupparty, .rules, .schedules, .explanation {
   font-weight: bold;
   padding-top:4px;
   padding-left:8px;
@@ -67,17 +67,14 @@ span {
   color: red;
 }
 
-dl, dt, dd {
-  font-size: 14;
-  font-weight: bold;
-  padding-left: 8px;
-}
 
 .ex {
   color:deeppink;
   text-decoration: underline;
   text-decoration-color: deeppink;
 }
+
+
 
 footer {
   text-align: center;
