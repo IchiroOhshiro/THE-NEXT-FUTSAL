@@ -38,10 +38,25 @@ h2 {
   margin:0;
 }
 
+.help {
+  color: deeppink;
+  font-weight: bold;
+  padding-top:4px;
+  padding-left:8px;
+}
+
 .message {
   line-height: 1.6;
 }
 
+.schedules {
+  line-height: 1.6;
+}
+
+.explanation {
+  padding-top:16px;
+  font-size: 14px;
+}
 a:hover {
   background:skyblue;
 }
@@ -65,13 +80,6 @@ h3 {
 
 span {
   color: red;
-}
-
-
-.ex {
-  color:deeppink;
-  text-decoration: underline;
-  text-decoration-color: deeppink;
 }
 
 
