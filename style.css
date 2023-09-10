@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+}
+
+h1 {
+  /* background: skyblue; */
+  margin: 0;
+  text-align: center;
+  height:160px;
+  line-height: 160px;
+  font-size: 22px;
+  background-image: url(IMG_1211.JPG);
+  background-size: cover;
+  /* background-position: center; */
+
+}
+
+main {
+  background-image: url(futsal.webp);
+}
+
+h2 {
+  font-size: 18px;
+  /* background:skyblue; */
+  margin:0;
+  padding-top: 8px;
+  padding-left:8px;
+}
+
+.days, .place, .message, .wrapupparty{
+  font-weight: bold;
+  padding-top:4px;
+  padding-left:8px;
+}
+
+a:hover {
+  background:skyblue;
+}
