@@ -98,15 +98,20 @@ h4 {
   font-family: sans-serif;
 }
 
+
+
 nav {
   background-image: url(futsal.webp);
 
 }
 
-.previous {
-  font-weight: bold;
-  color: black;
+.movie {
+  display:inline-block;
+  /* background: pink; */
+  font-size: 12px;
 }
+
+
 
 .information {
   font-size: 14px;
