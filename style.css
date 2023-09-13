@@ -22,6 +22,14 @@ main, .information {
   padding-bottom: 8px;
 }
 
+.container {
+  display: flex;
+}
+
+.previous {
+  padding: 0 8px 0;
+}
+
 h2 {
   font-size: 18px;
   /* background:skyblue; */
@@ -71,11 +79,33 @@ h3 {
   font-size: 16px;
   color:skyblue;
   margin: 0;
+  padding-top: 8px;
   padding-left: 8px;
   /* background:skyblue; */
   /* border-bottom: 1px solid skyblue; */
   text-decoration: underline;
   text-decoration-color: skyblue;
+}
+
+h4 {
+  margin: 0;
+  padding-left: 8px;
+  padding-top: 4px;
+  font-size: 14px;
+  text-decoration: underline;
+  text-decoration-color: red;
+  color: red;
+  font-family: sans-serif;
+}
+
+nav {
+  background-image: url(futsal.webp);
+
+}
+
+.previous {
+  font-weight: bold;
+  color: black;
 }
 
 .information {
