@@ -92,8 +92,8 @@ h4 {
   padding-left: 8px;
   padding-top: 4px;
   font-size: 14px;
-  text-decoration: underline;
-  text-decoration-color: red;
+  /* text-decoration: underline;
+  text-decoration-color: red; */
   color: red;
   font-family: sans-serif;
 }
